@@ -1,4 +1,4 @@
-import { getDateString, getRandomUUID } from "../utils";
+import { getDateString, getRandomUUID } from "@/utils";
 
 export const dynamic = "force-dynamic";
 
