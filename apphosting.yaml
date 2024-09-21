@@ -19,5 +19,8 @@ env:
 
   # Configure secrets
   # See https://firebase.google.com/docs/app-hosting/configure#secret-parameters
-  # - variable: API_KEY
-  #   secret: myApiKeySecret
+  - variable: HTTP_BASIC_AUTH
+    secret: HTTP_BASIC_AUTH
+    availability:
+      - BUILD
+      - RUNTIME
