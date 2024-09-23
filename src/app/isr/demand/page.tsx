@@ -1,5 +1,5 @@
-import { getDateString, getRandomUUID } from "@/utils";
-import { RegenerateButton } from "./RegenerateButton";
+import { getDateString, getRandomUUID } from '@/utils';
+import { RegenerateButton } from './RegenerateButton';
 
 export default function Page() {
   return (

@@ -1,6 +1,6 @@
-import { getDateString, getRandomUUID } from "@/utils";
+import { getDateString, getRandomUUID } from '@/utils';
 
-export const dynamic = "force-dynamic";
+export const dynamic = 'force-dynamic';
 
 export default function Page() {
   return (

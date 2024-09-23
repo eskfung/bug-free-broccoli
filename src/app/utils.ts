@@ -1,10 +1,10 @@
-import { randomUUID } from "node:crypto";
+import { randomUUID } from 'node:crypto';
 
 export function getDateString() {
-  return new Date().toLocaleString("en-US", {
-    dateStyle: "medium",
-    timeStyle: "long",
-    timeZone: "UTC",
+  return new Date().toLocaleString('en-US', {
+    dateStyle: 'medium',
+    timeStyle: 'long',
+    timeZone: 'UTC',
   });
 }
 

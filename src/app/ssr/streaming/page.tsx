@@ -1,10 +1,10 @@
-import { Suspense } from "react";
+import { Suspense } from 'react';
 
-import { Loading } from "@/components/Loading";
-import { Timeout } from "@/components/Timeout";
-import { getDateString, getRandomUUID } from "@/utils";
+import { Loading } from '@/components/Loading';
+import { Timeout } from '@/components/Timeout';
+import { getDateString, getRandomUUID } from '@/utils';
 
-export const dynamic = "force-dynamic";
+export const dynamic = 'force-dynamic';
 
 export default function Page() {
   return (

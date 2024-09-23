@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
 export function RegenerateButton() {
   async function revalidate() {
-    await fetch("/isr/demand/revalidate", { method: "POST" });
+    await fetch('/isr/demand/revalidate', { method: 'POST' });
     window.location.reload();
   }
 

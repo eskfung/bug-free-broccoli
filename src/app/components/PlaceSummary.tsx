@@ -9,4 +9,4 @@ export const PlaceSummary = ({ placeDetail }: PlaceSummaryProps) => {
       <p>{placeDetail.formattedAddress}</p>
     </div>
   );
-}
+};
