@@ -1,4 +1,4 @@
-import type { AwaitedReactNode } from "react";
+import type { AwaitedReactNode } from 'react';
 
 type Props = {
   children: AwaitedReactNode;
